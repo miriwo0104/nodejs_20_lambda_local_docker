@@ -1,5 +1,5 @@
 .PHONY: init
-init: build
+init: build npm.install
 
 .PHONY: build
 build:
